@@ -68,7 +68,7 @@ int WINAPI WinMain(HINSTANCE hI, HINSTANCE hP, LPSTR lpC, int nC)
 		WaitTimer(100);
 		switch (フラグ.タイトル) {
 		case 0:
-			キャラ選択(&フラグ.キャラ選択, 画像);
+			//キャラ選択(&フラグ.キャラ選択, 画像);
 
 			StopSoundMem(BGM.タイトル);
 			時間計測(&時間, スタート);
